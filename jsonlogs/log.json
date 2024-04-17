@@ -1,0 +1,326 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "as-a-business-user,-i-would-like-to-navigate-dates-forward-and-backward;user-should-be-able-to-navigate-the-dates",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "User should be able to navigate the dates",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user is on the sport home page",
+            "result": {
+              "duration": 6215000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user should be able to navigate forward and backward by dates",
+            "result": {
+              "duration": 7242000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 1,
+            "name": "@FunctionalTest"
+          },
+          {
+            "line": 4,
+            "name": "@Scenario_1"
+          }
+        ]
+      }
+    ],
+    "id": "as-a-business-user,-i-would-like-to-navigate-dates-forward-and-backward",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "As a business user, I would like to navigate dates forward and backward",
+    "uri": "cypress\\e2e\\features\\Date_Forward_Backward.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@FunctionalTest"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "as-a-business-user,-i-would-like-to-make-a-record-of-all-teams-which-are-playing-today;output-all-team-names-with-a-match-today.-if-there-are-no-matches-today,-output-a-message-to-convey-this.",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Output all team names with a match today. If there are no matches today, output a message to convey this.",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user is on the sport home page",
+            "result": {
+              "duration": 4980000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user should see team names with a match today",
+            "result": {
+              "duration": 400000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 8,
+            "name": "incase there are no matches the message should be displayed as 'There are no matches today'",
+            "result": {
+              "duration": 345000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 1,
+            "name": "@FunctionalTest"
+          },
+          {
+            "line": 4,
+            "name": "@Scenario_1"
+          }
+        ]
+      }
+    ],
+    "id": "as-a-business-user,-i-would-like-to-make-a-record-of-all-teams-which-are-playing-today",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "As a business user, I would like to make a record of all teams which are playing today",
+    "uri": "cypress\\e2e\\features\\Display_Team_Names.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@FunctionalTest"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "as-a-sports-user,-i-would-like-to-read-about-all-articles-related-to-sports;use-the-search-option-to-find-all-articles-related-to-'sports'.-output-the-first-heading-and-the-last-heading-returned-on-the-page.;;2",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "Use the search option to find all articles related to 'sports'. Output the first heading and the last heading returned on the page.",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user is on the sport home page",
+            "result": {
+              "duration": 5430000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 7,
+            "name": "user clicks on search button and enters \"Sport\"",
+            "result": {
+              "duration": 3642000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user should see list of atricles displayed",
+            "result": {
+              "duration": 384000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 1,
+            "name": "@FunctionalTest"
+          },
+          {
+            "line": 4,
+            "name": "@Scenario_1"
+          }
+        ]
+      }
+    ],
+    "id": "as-a-sports-user,-i-would-like-to-read-about-all-articles-related-to-sports",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "As a sports user, I would like to read about all articles related to sports",
+    "uri": "cypress\\e2e\\features\\Read_Articles.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@FunctionalTest"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "as-a-qa,-i-would-like-to-verify-show-and-hide-scorers-toggle-on-the-page;select-'show-scorers'-and-'hide-scorers'-and-verify-that-its-working-by-few-checks",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Select 'Show Scorers' and 'Hide Scorers' and verify that its working by few checks",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user is on the sport home page",
+            "result": {
+              "duration": 4801000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user should click on show-hide scores button to get the required details",
+            "result": {
+              "duration": 633000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 1,
+            "name": "@FunctionalTest"
+          },
+          {
+            "line": 4,
+            "name": "@Scenario_1"
+          }
+        ]
+      }
+    ],
+    "id": "as-a-qa,-i-would-like-to-verify-show-and-hide-scorers-toggle-on-the-page",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "As a QA, I would like to verify Show and Hide Scorers toggle on the page",
+    "uri": "cypress\\e2e\\features\\Show_Hide_Scorers.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@FunctionalTest"
+      }
+    ]
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "as-a-business-user,-i-would-like-to-navigate-to-all-sport-page;user-should-be-able-to-navigate-to-all-sport-page",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "User should be able to navigate to all sport page",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user is on the sport home page",
+            "result": {
+              "duration": 5209000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user should be able to navigate to all sport page",
+            "result": {
+              "duration": 1169000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 1,
+            "name": "@FunctionalTest"
+          },
+          {
+            "line": 4,
+            "name": "@Scenario_1"
+          }
+        ]
+      }
+    ],
+    "id": "as-a-business-user,-i-would-like-to-navigate-to-all-sport-page",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "As a business user, I would like to navigate to all sport page",
+    "uri": "cypress\\e2e\\features\\Validate_All_Sport_Link.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@FunctionalTest"
+      }
+    ]
+  }
+]
